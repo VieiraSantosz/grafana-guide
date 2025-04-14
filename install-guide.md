@@ -8,7 +8,7 @@ Guia de Instalação do Grafana
 
 <h4 align="center">
 
-Instruções para a instalação do Wazuh e o primeiro acesso à plataforma.
+Instruções para a instalação do Grafana e o primeiro acesso à plataforma.
 
 </h4>
 
@@ -16,10 +16,10 @@ Instruções para a instalação do Wazuh e o primeiro acesso à plataforma.
 
 Antes de iniciar a instalação, verifique se o seu servidor atende aos seguintes requisitos:
 
-- **Sistema operacional:** CentOS, Red Hat Enterprise Linux (RHEL), Ubuntu e Amazon Linux
-- **Mínimo de disco:** 50 GB
-- **Mínimo de memória RAM:** 8 GB
-- **Mínimo de CPU:** 4 CPU
+- **Sistema operacional:** Red Hat Enterprise Linux (RHEL), Fedroa, Ubuntu e Amazon Linux
+- **Mínimo de disco:** 16 GB
+- **Mínimo de memória RAM:** 4 GB
+- **Mínimo de CPU:** 2 CPU
 
 
 ## Instalação do Wazuh
