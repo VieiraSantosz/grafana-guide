@@ -72,7 +72,7 @@ Após a instalação, o script fornecerá as credenciais para o primeiro acesso 
 
 Após a instalação, abra o seu navegador e insira o link de acesso à interface web fornecido pelo script para acessar a plataforma do Grafana.
 ```bash
-http://<IP-do-Servidor>:3000
+http://<IP-do-Servidor:3000>
 ```
 **Nota:** Caso você esteja acessando a plataforma remotamente, substitua o **localhost** pelo endereço IP ou nome de domínio do servidor onde o Wazuh foi instalado.
 
