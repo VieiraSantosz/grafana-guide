@@ -109,18 +109,20 @@ https://<IP-do-Servidor:3000>
 
 **2. Login inicial**
 
-Utilize as credenciais admin, tanto para login como para senha.
+Ao acessar pela primeira vez, você verá a tela de login do Grafana. Utilize as credenciais **admin**, tanto para login como para senha.
 
 ![image](https://github.com/user-attachments/assets/fa85656b-8335-4a6e-a53a-16b5514b56b6)
 
 **3. Trocar a senha**
+
+Por segurança, o Grafana exige que a senha padrão do usuário admin seja alterada logo após o primeiro login.
 
 ![image](https://github.com/user-attachments/assets/356056b6-8854-47cc-99be-6ca8de42c5f1)
 
 
 **4. Após o Login**
 
-Depois de realizar o login, você estará pronto para começar a explorar e configurar a plataforma Wazuh.
+Após a troca de senha, você será redirecionado para a interface principal do Grafana.
 
 ![image](https://github.com/user-attachments/assets/8388280c-41cf-42b7-90f3-ff09c2c37c2b)
 
