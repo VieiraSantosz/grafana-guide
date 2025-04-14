@@ -1,6 +1,6 @@
 <h1 align="center">
 
-![image](https://github.com/user-attachments/assets/012db8db-ae41-4a8e-b510-89886de09a2d)
+[![image](https://github.com/user-attachments/assets/012db8db-ae41-4a8e-b510-89886de09a2d)](https://grafana.com/)
 
 Guia de Instalação do Grafana
 
