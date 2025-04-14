@@ -9,14 +9,14 @@ Grafana (Dashboards)
 
 <h4 align="center">
   
-[Wazuh](https://wazuh.com) é uma plataforma gratuita e de código aberto projetada para fornecer segurança e monitoramento contínuo. Sua função principal é detectar ameaças, analisar vulnerabilidades e gerenciar incidentes de segurança em tempo real.
+[Grafana](https://grafana.com/) é uma plataforma de visualização e análise de dados em tempo real, muito usada para monitoramento de sistemas, aplicações e infraestrutura. Ele permite criar dashboards interativos que exibem métricas de diversas fontes de dados, como Prometheus, InfluxDB, MySQL, Elasticsearch, entre outras.
 
 </h4>
 
-## 📌 Como instalar o Wazuh?
+## 📌 Como instalar o Grafana?
 
 Existem duas formas de realizar a instalação:
 
-**1. Instalação manual:** Siga as instruções no arquivo [install-guide.md](https://github.com/VieiraSantosz/wazuh/blob/main/install-guide.md) para realizar a instalação passo a passo.
+**1. Instalação manual:** Siga as instruções no arquivo [install-guide.md]() para realizar a instalação passo a passo.
 
-**2. Usando script:** Acesse a pasta [script](https://github.com/VieiraSantosz/wazuh/tree/main/script), faça o download do script install-wazuh.sh, e siga as orientações de uso.
+**2. Usando script:** Acesse a pasta [script](), faça o download do script install-grafana.sh, e siga as orientações de uso.
