@@ -16,7 +16,7 @@ Instruções para a instalação do Grafana e o primeiro acesso à plataforma.
 
 Antes de iniciar a instalação, verifique se o seu servidor atende aos seguintes requisitos:
 
-- **Sistema operacional:** Red Hat Enterprise Linux (RHEL), Fedroa, Ubuntu e Debian
+- **Sistema operacional:** Red Hat Enterprise Linux (RHEL), Fedora, Ubuntu e Debian
 - **Mínimo de disco:** 16 GB
 - **Mínimo de memória RAM:** 4 GB
 - **Mínimo de CPU:** 2 CPU
