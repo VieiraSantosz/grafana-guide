@@ -34,28 +34,28 @@ sudo apt update && sudo apt upgrade -y
 
 Clone o repositório onde o script de instalação está armazenado.
 ```bash
-git clone https://github.com/VieiraSantosz/wazuh-guide.git
+https://github.com/VieiraSantosz/grafana-guide.git
 ```
 
 **3. Navegar até o diretório do script**
 
 Acesse a pasta onde o script foi clonado.
 ```bash
-cd wazuh-guide/script
+cd grafana-guide/script
 ```
 
 **4. Conceder permissões para o script**
 
 Antes de executar o script, é necessário garantir que ele tenha permissões de execução.
 ```bash
-chmod +x install_wazuh.sh
+chmod +x install_grafana.sh
 ```
 
 **5. Executar o script de instalação**
 
 Agora, execute o script para iniciar a instalação do Wazuh.
 ```bash
-./install_wazuh.sh
+./install_grafana.sh
 ```
 
 ![Wazuh](https://github.com/user-attachments/assets/53ae1d47-dc4c-4c9a-ab77-0f3c4762ee8b)
