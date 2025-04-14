@@ -44,10 +44,6 @@ sudo mkdir -p /etc/apt/keyrings/
 wget -q -O - https://apt.grafana.com/gpg.key | gpg --dearmor | sudo tee /etc/apt/keyrings/grafana.gpg > /dev/null
 ```
 
-```bash
-wget -q -O - https://apt.grafana.com/gpg.key | gpg --dearmor | sudo tee /etc/apt/keyrings/grafana.gpg > /dev/null
-```
-
 **4. Adicionar um repositório para versões estáveis**
 
 ```bash
@@ -78,9 +74,6 @@ sudo apt-get install grafana-enterprise -y
 
 ```bash
 sudo systemctl daemon-reload
-```
-
-```bash
 sudo systemctl start grafana-server
 ```
 
