@@ -109,7 +109,7 @@ https://<IP-do-Servidor:3000>
 
 **2. Login inicial**
 
-Ao acessar pela primeira vez, você verá a tela de login do Grafana. Utilize as credenciais **admin**, tanto para login como para senha.
+Ao acessar pela primeira vez, você verá a tela de login do Grafana. Use as credenciais **admin** tanto para o nome de usuário quanto para a senha.
 
 ![image](https://github.com/user-attachments/assets/fa85656b-8335-4a6e-a53a-16b5514b56b6)
 
