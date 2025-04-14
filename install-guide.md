@@ -133,12 +133,6 @@ Após a troca de senha, você será redirecionado para a interface principal do 
 Caso a instalação não tenha ocorrido conforme esperado, verifique o seguinte:
 
 - **Falha na conexão com a internet:** Verifique se a sua conexão está funcionando corretamente e que o servidor pode acessar os repositórios do Grafana.
-- **Acesso à interface web:** Se você não consegue acessar a interface web, verifique se a porta 3000 está aberta no firewall do servidor:
-- **Serviço Grafana não está em execução:** Certifique-se de que o serviço está ativo com
-
-
-
-
-
-
+- **Acesso à interface web:** Se você não consegue acessar a interface web, verifique se a porta 3000 está aberta no firewall do servidor.
+- **Serviço Grafana não está em execução:** Certifique-se de que o serviço está ativo.
 
