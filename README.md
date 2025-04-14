@@ -1,8 +1,8 @@
 <h1 align="center">
 
-[![Wazuh Logo](https://github.com/user-attachments/assets/119abd64-9d52-4170-b976-6037f76f6097)](https://wazuh.com)
+![image](https://github.com/user-attachments/assets/012db8db-ae41-4a8e-b510-89886de09a2d)
 
-Wazuh XDR | SIEM
+Grafana (Dashboards)
 
 </h1>
 
