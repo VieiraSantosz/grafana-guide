@@ -98,7 +98,9 @@ sudo systemctl status grafana-server
 
 **Nota:** Se o serviço estiver em execução corretamente, você verá uma mensagem indicando que ele está ativo. Caso contrário, revise os passos anteriores.
 
+
 ## Primeiro acesso à plataforma
+
 **1. Acessar a interface web**
 
 Após a instalação, abra o seu navegador e insira a seguinte URL para acessar a plataforma do Grafana:
@@ -125,6 +127,14 @@ Por segurança, o Grafana exige que a senha padrão do usuário admin seja alter
 Após a troca de senha, você será redirecionado para a interface principal do Grafana.
 
 ![image](https://github.com/user-attachments/assets/8388280c-41cf-42b7-90f3-ff09c2c37c2b)
+
+
+## Solução de Problemas
+Caso a instalação não tenha ocorrido conforme esperado, verifique o seguinte:
+
+- **Falha na conexão com a internet:** Verifique se a sua conexão está funcionando corretamente e que o servidor pode acessar os repositórios do Grafana.
+- **Acesso à interface web:** Se você não consegue acessar a interface web, verifique se a porta 3000 está aberta no firewall do servidor:
+- **Serviço Grafana não está em execução:** Certifique-se de que o serviço está ativo com
 
 
 
