@@ -1,14 +1,14 @@
 <h1 align="center">
 
-[![Wazuh Logo](https://github.com/user-attachments/assets/119abd64-9d52-4170-b976-6037f76f6097)](https://wazuh.com)
+[![image](https://github.com/user-attachments/assets/012db8db-ae41-4a8e-b510-89886de09a2d)](https://grafana.com/)
 
-Script para Instalação do Wazuh
+Script para Instalação do Grafana (Dashboards)
 
 </h1>
 
 <h4 align="center">
 
-Instruções para executar o script install_wazuh.sh e o primeiro acesso à plataforma. 
+Instruções para executar o script install_grafana.sh e o primeiro acesso à plataforma. 
 
 </h4>
 
@@ -16,10 +16,10 @@ Instruções para executar o script install_wazuh.sh e o primeiro acesso à plat
 
 Antes de executar o script, verifique se o seu servidor atende aos seguintes requisitos:
 
-- **Sistema operacional:** Ubuntu 16.04, 18.04, 20.04, 22.04, 24.04
-- **Mínimo de disco:** 50 GB
-- **Mínimo de memória RAM:** 8 GB
-- **Mínimo de CPU:** 4 CPU
+- **Sistema operacional:** Ubuntu e Debian
+- **Mínimo de disco:** 16 GB
+- **Mínimo de memória RAM:** 4 GB
+- **Mínimo de CPU:** 2 CPU
 
 
 ## Execução do Script
