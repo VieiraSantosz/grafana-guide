@@ -83,6 +83,42 @@ sudo systemctl start grafana-server
 sudo systemctl enable grafana-server.service
 ```
 
+![image](https://github.com/user-attachments/assets/a23bbd1d-7f2e-4a15-87f3-3064cba765b7)
+
+**3. Verificar se o serviço está sendo executado**
+
+```bash
+sudo systemctl status grafana-server
+```
+
+![image](https://github.com/user-attachments/assets/7d6ac3b6-c8b6-4001-a7cd-c9c32473f744)
+
+
+## Primeiro acesso à plataforma
+**1. Acessar a interface web**
+
+Após a instalação, abra o seu navegador e insira a seguinte URL para acessar a plataforma do Grafana:
+```bash
+https://<IP-do-Servidor:3000>
+```
+**Nota:** Caso você esteja acessando a plataforma remotamente, substitua o **localhost** pelo endereço IP ou nome de domínio do servidor onde o Wazuh foi instalado.
+
+**2. Login inicial**
+
+Utilize as credenciais admin, tanto para login como para senha.
+
+![image](https://github.com/user-attachments/assets/fa85656b-8335-4a6e-a53a-16b5514b56b6)
+
+**3. Trocar a senha**
+
+![image](https://github.com/user-attachments/assets/356056b6-8854-47cc-99be-6ca8de42c5f1)
+
+
+**4. Após o Login**
+
+Depois de realizar o login, você estará pronto para começar a explorar e configurar a plataforma Wazuh.
+
+![image](https://github.com/user-attachments/assets/8388280c-41cf-42b7-90f3-ff09c2c37c2b)
 
 
 
