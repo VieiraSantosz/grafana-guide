@@ -9,7 +9,7 @@ Grafana (Dashboards)
 
 <h4 align="center">
   
-[Grafana](https://grafana.com/) é uma plataforma de visualização e análise de dados em tempo real, muito usada para monitoramento de sistemas, aplicações e infraestrutura. Ele permite criar dashboards interativos que exibem métricas de diversas fontes de dados, como Prometheus, InfluxDB, MySQL, Elasticsearch, entre outras.
+[Grafana](https://grafana.com/) é uma plataforma de visualização e análise de dados em tempo real, muito usada para monitoramento de sistemas, aplicações e infraestrutura. Ela permite criar dashboards interativos que exibem métricas de diversas fontes de dados, como Prometheus, InfluxDB, MySQL, Elasticsearch, entre outras.
 
 </h4>
 
