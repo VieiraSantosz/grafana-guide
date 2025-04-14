@@ -53,17 +53,17 @@ chmod +x install_grafana.sh
 
 **5. Executar o script de instalação**
 
-Agora, execute o script para iniciar a instalação do Wazuh.
+Agora, execute o script para iniciar a instalação do Grafana.
 ```bash
 ./install_grafana.sh
 ```
 
-![Wazuh](https://github.com/user-attachments/assets/53ae1d47-dc4c-4c9a-ab77-0f3c4762ee8b)
+![image](https://github.com/user-attachments/assets/44874870-fff5-4227-be50-5dc94942cc40)
 
 
-Após a instalação, o script fornecerá as credenciais para o primeiro acesso (login e senha) e o link de acesso à interface web. Guarde essas informações, pois você precisará delas para acessar a plataforma do Wazuh.
+Após a instalação, o script fornecerá as credenciais para o primeiro acesso (login e senha) e o link de acesso à interface web. Guarde essas informações, pois você precisará delas para acessar a plataforma do Grafana.
 
-![image](https://github.com/user-attachments/assets/b4e94513-db92-4bfe-ab59-49c3584f115f)
+![image](https://github.com/user-attachments/assets/993d40c4-fbb7-4152-99bb-746590ae1ec8)
 
 
 
@@ -72,7 +72,7 @@ Após a instalação, o script fornecerá as credenciais para o primeiro acesso 
 
 Após a instalação, abra o seu navegador e insira link de acesso à interface web, que foi fornecido pelo script, para acessar a plataforma do Wazuh:
 ```bash
-https://<IP-do-Servidor>
+https://<IP-do-Servidor>:3000
 ```
 **Nota:** Caso você esteja acessando a plataforma remotamente, substitua o **localhost** pelo endereço IP ou nome de domínio do servidor onde o Wazuh foi instalado.
 
@@ -80,19 +80,25 @@ https://<IP-do-Servidor>
 
 Utilize as credenciais fornecidas durante a instalação para realizar o login na plataforma.
 
-![Wazuh](https://github.com/user-attachments/assets/88f1c874-f404-4094-8000-e29f428a8926)
+![image](https://github.com/user-attachments/assets/fa85656b-8335-4a6e-a53a-16b5514b56b6)
 
-**3. Após o Login**
+**3. Trocar a senha**
 
-Depois de realizar o login, você estará pronto para começar a explorar e configurar a plataforma Wazuh.
+Por segurança, o Grafana exige que a senha padrão do usuário admin seja alterada logo após o primeiro login.
 
-![image](https://github.com/user-attachments/assets/83deff03-05c0-4a5b-8aea-756dbac1c52e)
+![image](https://github.com/user-attachments/assets/356056b6-8854-47cc-99be-6ca8de42c5f1)
+
+
+**4. Após o Login**
+
+Após a troca de senha, você será redirecionado para a interface principal do Grafana.
+
+![image](https://github.com/user-attachments/assets/8388280c-41cf-42b7-90f3-ff09c2c37c2b)
 
 
 ## Solução de Problemas
+Caso a instalação não tenha ocorrido conforme esperado, verifique o seguinte:
 
-Caso encontre problemas durante o processo de instalação ou ao acessar a plataforma, aqui estão algumas dicas para resolver:
-
-- Problema com a conexão à internet: Verifique se o servidor está conectado à internet e consegue acessar os repositórios do Wazuh.
-- Erro ao executar o script: Caso o script não execute corretamente, consulte o log de instalação para mais detalhes sobre o erro. O log pode ser encontrado em **/var/log/wazuh-install.log**.
-- Acesso à interface web: Se não conseguir acessar a interface web, verifique se a porta 443 (HTTPS) está aberta no firewall do servidor.
+- **Falha na conexão com a internet:** Verifique se a sua conexão está funcionando corretamente e que o servidor pode acessar os repositórios do Grafana.
+- **Acesso à interface web:** Se você não consegue acessar a interface web, verifique se a porta 3000 está aberta no firewall do servidor.
+- **Serviço Grafana não está em execução:** Certifique-se de que o serviço está ativo.
