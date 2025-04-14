@@ -33,12 +33,14 @@ sudo apt update && sudo apt upgrade -y
 
 **2. Instalar os pacotes de pré-requisitos**
 
+Esses pacotes são necessários para permitir que o sistema adicione repositórios externos, baixe arquivos via HTTPS e manipule chaves GPG com segurança.
 ```bash
 sudo apt-get install -y apt-transport-https software-properties-common wget
 ```
 
 **3. Importar a chave GPG**
 
+O Grafana fornece uma chave GPG para garantir a autenticidade e a integridade dos pacotes. Esse passo adiciona essa chave ao seu sistema, para que os pacotes do Grafana possam ser verificados.
 ```bash
 sudo mkdir -p /etc/apt/keyrings/
 wget -q -O - https://apt.grafana.com/gpg.key | gpg --dearmor | sudo tee /etc/apt/keyrings/grafana.gpg > /dev/null
@@ -46,18 +48,21 @@ wget -q -O - https://apt.grafana.com/gpg.key | gpg --dearmor | sudo tee /etc/apt
 
 **4. Adicionar um repositório para versões estáveis**
 
+Com a chave importada, agora é possível adicionar o repositório do Grafana ao sistema para instalar os pacotes diretamente da fonte oficial.
 ```bash
 echo "deb [signed-by=/etc/apt/keyrings/grafana.gpg] https://apt.grafana.com stable main" | sudo tee -a /etc/apt/sources.list.d/grafana.list
 ```
 
 **5. Atualizar a lista de pacotes disponíveis**
 
+Agora que o repositório do Grafana foi adicionado, você precisa atualizar novamente os índices de pacotes para que o APT reconheça os pacotes disponíveis a partir do novo repositório.
 ```bash
 sudo apt-get update && apt-get upgrade -y
 ```
 
-**6. Instalar o Grafana OSS**
+**6. Instalar o Grafana OSS e Enterprise**
 
+Agora é hora de instalar o Grafana!
 ```bash
 sudo apt-get install grafana -y
 ```
@@ -68,10 +73,11 @@ sudo apt-get install grafana -y
 sudo apt-get install grafana-enterprise -y
 ```
 
-## Iniciar o servidor Grafana
+## Iniciar e habilitar o serviço Grafana
 
 **1. Iniciar os serviços**
 
+Depois da instalação, é necessário iniciar o serviço do Grafana e garantir que ele seja iniciado automaticamente junto com o sistema operacional.
 ```bash
 sudo systemctl daemon-reload
 sudo systemctl start grafana-server
@@ -79,6 +85,7 @@ sudo systemctl start grafana-server
 
 **2. Configurar o servidor Grafana para iniciar na inicialização**
 
+Ativar o serviço do Grafana para que ele seja iniciado automaticamente ao ligar ou reiniciar o servidor.
 ```bash
 sudo systemctl enable grafana-server.service
 ```
@@ -87,12 +94,14 @@ sudo systemctl enable grafana-server.service
 
 **3. Verificar se o serviço está sendo executado**
 
+Verificar se o serviço está **active (running)** ou se ocorreu algum erro.
 ```bash
 sudo systemctl status grafana-server
 ```
 
 ![image](https://github.com/user-attachments/assets/7d6ac3b6-c8b6-4001-a7cd-c9c32473f744)
 
+**Nota:** Se o serviço estiver em execução corretamente, você verá uma mensagem indicando que ele está ativo. Caso contrário, revise os passos anteriores.
 
 ## Primeiro acesso à plataforma
 **1. Acessar a interface web**
