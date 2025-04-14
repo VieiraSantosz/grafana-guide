@@ -105,7 +105,7 @@ sudo systemctl status grafana-server
 
 Após a instalação, abra o seu navegador e insira a seguinte URL para acessar a plataforma do Grafana:
 ```bash
-https://<IP-do-Servidor:3000>
+http://<IP-do-Servidor:3000>
 ```
 **Nota:** Caso você esteja acessando a plataforma remotamente, substitua o **localhost** pelo endereço IP ou nome de domínio do servidor onde o Wazuh foi instalado.
 
