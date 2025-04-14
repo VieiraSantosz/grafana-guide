@@ -63,7 +63,8 @@ sudo apt-get update && apt-get upgrade -y
 **6. Instalar o Grafana OSS e Entreprise**
 
 ```bash
-sudo apt-get install grafana && sudo apt-get install grafana-enterprise -y
+sudo apt-get install grafana -y
+sudo apt-get install grafana-enterprise -y
 ```
 
 
