@@ -124,7 +124,7 @@ Por segurança, o Grafana exige que a senha padrão do usuário admin seja alter
 
 **4. Após o Login**
 
-Após a troca de senha, você será redirecionado para a interface principal do Grafana.
+Assim que a senha for atualizada, o sistema redirecionará você para a interface principal do Grafana.
 
 ![image](https://github.com/user-attachments/assets/8388280c-41cf-42b7-90f3-ff09c2c37c2b)
 
