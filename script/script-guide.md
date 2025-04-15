@@ -2,7 +2,7 @@
 
 [![image](https://github.com/user-attachments/assets/012db8db-ae41-4a8e-b510-89886de09a2d)](https://grafana.com/)
 
-Script para Instalação do Grafana (Dashboards)
+Script para Instalação do Grafana
 
 </h1>
 
