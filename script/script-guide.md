@@ -74,7 +74,6 @@ Após a instalação, abra o seu navegador e insira o link de acesso à interfac
 ```bash
 http://<IP-do-Servidor:3000>
 ```
-**Nota:** Caso você esteja acessando a plataforma remotamente, substitua o **localhost** pelo endereço IP ou nome de domínio do servidor onde o Grafana foi instalado.
 
 **2. Login inicial**
 
