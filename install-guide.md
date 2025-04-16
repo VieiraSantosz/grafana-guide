@@ -103,14 +103,18 @@ sudo systemctl status grafana-server
 
 **1. Acessar a interface web**
 
-Após a instalação, abra o seu navegador e insira a seguinte URL para acessar a plataforma do Grafana:
+Depois que os serviços estiverem ativos, abra o navegador e acesse a interface web do Grafana utilizando o IP da sua máquina seguido da porta 3000.
 ```bash
 http://<IP-do-Servidor:3000>
 ```
 
 **2. Login inicial**
 
-Ao acessar pela primeira vez, você verá a tela de login do Grafana. Use as credenciais **admin** tanto para o nome de usuário quanto para a senha.
+Ao acessar pela primeira vez, você verá a tela de login do Grafana. Use as credenciais padrão para acessar:
+
+**Usuário:** admin
+
+**Senha:** admin
 
 ![image](https://github.com/user-attachments/assets/fa85656b-8335-4a6e-a53a-16b5514b56b6)
 
