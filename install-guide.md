@@ -103,7 +103,7 @@ sudo systemctl status grafana-server
 
 **1. Acessar a interface web**
 
-Depois que os serviços estiverem ativos, abra o navegador e acesse a interface web do Grafana utilizando o IP da sua máquina seguido da porta 3000.
+Abra o navegador e acesse a interface web do Grafana utilizando o IP da sua máquina seguido da porta 3000.
 ```bash
 http://<IP-do-Servidor:3000>
 ```
