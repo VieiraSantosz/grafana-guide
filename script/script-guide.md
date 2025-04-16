@@ -63,7 +63,7 @@ Agora, execute o script para iniciar a instalação do Grafana.
 
 Após a instalação, o script fornecerá as credenciais para o primeiro acesso (login e senha) e o link de acesso à interface web. Guarde essas informações, pois você precisará delas para acessar a plataforma do Grafana.
 
-![image](https://github.com/user-attachments/assets/993d40c4-fbb7-4152-99bb-746590ae1ec8)
+![image](https://github.com/user-attachments/assets/e4ac592a-7cca-4df5-8a9c-1857dc85c528)
 
 
 
