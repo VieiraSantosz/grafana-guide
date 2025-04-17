@@ -76,6 +76,7 @@ sudo apt-get install grafana -y
 sudo apt-get install grafana-enterprise -y
 ```
 
+Se você não tem certeza de qual versão escolher, a versão **OSS** é uma boa opção de início, pois oferece todos os recursos principais do Grafana, e você pode sempre migrar para a versão Enterprise mais tarde, se necessário.
 
 ## Iniciar e habilitar o serviço Grafana
 
