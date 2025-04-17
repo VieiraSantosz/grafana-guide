@@ -283,7 +283,6 @@ grafana_packages () {
 
 # Função para instalar o Grafana OSS e Enterprise (Dashboard)
 grafana_oss_enterprise () {    
-    progress_bar "sudo apt-get install grafana -y" "/tmp/grafana_log"
     progress_bar "sudo apt-get install grafana-enterprise -y" "/tmp/grafana_enterprise_log"
 }
 
