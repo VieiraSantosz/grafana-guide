@@ -64,13 +64,13 @@ sudo apt-get update && apt-get upgrade -y
 
 Agora que todos os pré-requisitos estão configurados corretamente, você pode escolher qual versão do Grafana deseja instalar, dependendo das suas necessidades. O Grafana oferece duas versões principais:
 
-- **Grafana OSS (Open-Source Software):** Esta é a versão gratuita e de código aberto do Grafana. Ela inclui a maioria dos recursos essenciais, como dashboards, alertas, plugins, e integrações com várias fontes de dados. É ideal para a maioria dos usuários que não precisam de funcionalidades avançadas oferecidas pela versão Enterprise.
+- **Grafana OSS (Open-Source Software):** Esta é a versão gratuita e de código aberto do Grafana. Ela inclui a maioria dos recursos essenciais, como dashboards, alertas, plugins, e integrações com várias fontes de dados.
 
 ```bash
 sudo apt-get install grafana -y
 ```
 
-- **Grafana Enterprise:** Esta versão é destinada a usuários que necessitam de recursos adicionais voltados para ambientes corporativos, como suporte avançado, segurança aprimorada, recursos de escalabilidade, integrações mais avançadas com soluções de terceiros e plugins premium. Ela é licenciada e requer uma chave de licença.
+- **Grafana Enterprise:** Esta versão é destinada a usuários que necessitam de recursos adicionais voltados para ambientes corporativos, como suporte avançado, segurança aprimorada, recursos de escalabilidade, integrações mais avançadas com soluções de terceiros e plugins premium.
 
 ```bash
 sudo apt-get install grafana-enterprise -y
