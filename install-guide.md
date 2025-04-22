@@ -21,6 +21,7 @@ Antes de iniciar a instalação, verifique se o seu servidor atende aos seguinte
 - **Mínimo de memória RAM:** 4 GB
 - **Mínimo de CPU:** 2 CPU
 
+<br>
 
 ## Instalação do Grafana
 
@@ -78,6 +79,8 @@ sudo apt-get install grafana-enterprise -y
 
 Se você não tem certeza de qual versão escolher, a versão **OSS** é uma boa opção de início, pois oferece todos os recursos principais do Grafana, e você pode sempre migrar para a versão Enterprise mais tarde, se necessário.
 
+<br>
+
 ## Iniciar e habilitar o serviço Grafana
 
 **1. Iniciar os serviços**
@@ -108,6 +111,7 @@ sudo systemctl status grafana-server
 
 **Nota:** Se o serviço estiver em execução corretamente, você verá uma mensagem indicando que ele está ativo. Caso contrário, revise os passos anteriores.
 
+<br>
 
 ## Primeiro acesso à plataforma
 
@@ -141,6 +145,7 @@ Assim que a senha for atualizada, o sistema redirecionará você para a interfac
 
 ![image](https://github.com/user-attachments/assets/8388280c-41cf-42b7-90f3-ff09c2c37c2b)
 
+<br>
 
 ## Solução de Problemas
 Caso a instalação não tenha ocorrido conforme esperado, verifique o seguinte:
