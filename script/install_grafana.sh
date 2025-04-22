@@ -223,8 +223,8 @@ grafana_services () {
             echo -e "\n\nInstalando os pacotes do novo Grafana (Dashboard)"
             grafana_packages
 
-            echo -e "\n\nInstalando o novo Grafana OSS e Enterprise"
-            grafana_oss_enterprise
+            echo -e "\n\nInstalando o novo Grafana OSS"
+            grafana_oss
 
             echo -e "\n\nIniciando os serviços do novo Grafana (Dashboard)\n"
             grafana_server
@@ -243,8 +243,8 @@ grafana_services () {
         echo -e "\n\nInstalando os pacotes do Grafana (Dashboard)"
         grafana_packages
 
-        echo -e "\n\nInstalando o Grafana OSS e Enterprise"
-        grafana_oss_enterprise
+        echo -e "\n\nInstalando o Grafana OSS"
+        grafana_oss
 
         echo -e "\n\nIniciando os serviços do Grafana (Dashboard)\n"
         grafana_server
@@ -264,7 +264,7 @@ grafana_remove () {
     sudo rm -f /etc/apt/keyrings/grafana.gpg
     sudo rm -f /etc/apt/sources.list.d/grafana.list
 
-    remove_grf="sudo apt remove --purge grafana grafana-enterprise -y \
+    remove_grf="sudo apt remove --purge grafana -y \
                 sudo apt autoremove -y \
                 sudo apt-get update"
     progress_bar "$remove_grf" "/tmp/remove_grf_log"
@@ -281,10 +281,9 @@ grafana_packages () {
 }
 
 
-# Função para instalar o Grafana OSS e Enterprise (Dashboard)
-grafana_oss_enterprise () {    
+# Função para instalar o Grafana OSS (Dashboard)
+grafana_oss () {    
     progress_bar "sudo apt-get install grafana -y" "/tmp/grafana_log"
-    progress_bar "sudo apt-get install grafana-enterprise -y" "/tmp/grafana_enterprise_log"
 }
 
 
@@ -322,7 +321,7 @@ echo -e "\n\n-------------------------------------------------------------------
 ############################################################
 
 
-### Parte 2 - Instalar o Grafana OSS e Enterprise (Dashboard)
+### Parte 2 - Instalar o Grafana OSS (Dashboard)
 
 banner
 
