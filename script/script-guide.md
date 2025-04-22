@@ -21,6 +21,7 @@ Antes de executar o script, verifique se o seu servidor atende aos seguintes req
 - **Mínimo de memória RAM:** 4 GB
 - **Mínimo de CPU:** 2 CPU
 
+<br>
 
 ## Execução do Script
 **1. Atualizar o servidor**
@@ -65,7 +66,7 @@ Após a instalação, o script fornecerá as credenciais para o primeiro acesso 
 
 ![image](https://github.com/user-attachments/assets/e4ac592a-7cca-4df5-8a9c-1857dc85c528)
 
-
+<br>
 
 ## Primeiro acesso à plataforma
 **1. Acessar a interface web**
@@ -94,6 +95,7 @@ Após a troca de senha, você será redirecionado para a interface principal do 
 
 ![image](https://github.com/user-attachments/assets/8388280c-41cf-42b7-90f3-ff09c2c37c2b)
 
+<br>
 
 ## Solução de Problemas
 Caso a instalação não tenha ocorrido conforme esperado, verifique o seguinte:
