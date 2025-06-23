@@ -202,7 +202,7 @@ check_system_minimum () {
 grafana_services () {
 
     # Busca por serviços do Grafana (Dashboard)
-    SERVICES=$(systemctl list-units --type=service --no-pager | grep "grafana-" | awk '{print $1}')
+    SERVICES=$(systemctl list-units --type=service --no-pager | grep "grafana-server" | awk '{print $1}')
 
     # Verifica se encontrou algum serviço do Grafana (Dashboard)
     if [ -n "$SERVICES" ]; then
